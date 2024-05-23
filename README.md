@@ -68,7 +68,7 @@ PasswordAuthentication yes
 
 **Install PIP 3**
 
-`apt install python3-pip`
+`apt update && sudo apt install -y python3-pip`
 
 **Install Bloodhound**
 
