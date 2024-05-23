@@ -55,10 +55,11 @@ Check the full list of possibilities here:
 
 **Enable Root Login SSH:**
 
-nano /etc/ssh/sshd_config
+`nano /etc/ssh/sshd_config`
 
-PermitRootLogin yes
-PasswordAuthentication yes
+Change the following lines and remove the # in friont of them:
+`PermitRootLogin yes`
+`PasswordAuthentication yes`
 
 **Change Keyboard-Layout:
 
@@ -82,7 +83,8 @@ PasswordAuthentication yes
 
 Install Gui:
 
-**If you are on GoogleClou** First Create a Firewall Rule for Port 5900 and 5901 in Google Cloud on 0.0.0.0/0
+**If you are on GoogleCloud** 
+First Create a Firewall Rule for Port 5900 and 5901 in Google Cloud on 0.0.0.0/0
 
 `apt install xfce4 xfce4-goodies -y`
 
